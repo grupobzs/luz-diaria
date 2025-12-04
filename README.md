@@ -1,4 +1,4 @@
-# Estudos Kotlin & Jetpack Compose 📱
+# Estudos Kotlin & Jetpack Compose
 
 Este projeto é um aplicativo Android desenvolvido com o objetivo de estudar e praticar os conceitos modernos de desenvolvimento nativo.
 
