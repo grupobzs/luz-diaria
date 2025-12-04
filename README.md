@@ -18,6 +18,3 @@ Este projeto é um aplicativo Android desenvolvido com o objetivo de estudar e p
 ## 📚 Objetivo
 
 O foco principal deste repositório é documentar minha evolução no aprendizado da sintaxe do Kotlin e na construção de interfaces declarativas. O projeto evoluirá gradualmente, adicionando novos componentes e lógicas conforme o avanço nos estudos.
-
----
-*Desenvolvido para fins educacionais.*
