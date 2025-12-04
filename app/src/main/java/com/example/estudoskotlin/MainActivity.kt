@@ -28,6 +28,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringArrayResource
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.content.pm.ShortcutInfoCompat
@@ -68,6 +69,7 @@ fun MainScreen(m: Modifier = Modifier) {
         Column (
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally,
+            modifier = Modifier.padding(all = 10.dp)
         ){
             Text(
                 text = resultado,
@@ -76,7 +78,8 @@ fun MainScreen(m: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier
                     .background(Color.White)
-                    .padding(all = 10.dp)
+                    .padding(all = 10.dp),
+                textAlign = TextAlign.Center
             )
 
             Button(onClick = {
